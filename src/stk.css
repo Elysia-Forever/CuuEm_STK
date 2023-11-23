@@ -8,16 +8,16 @@ h1{
 }
 
 .nganHang{
-text-align: left;
+text-align: center;
 margin-top: 40px;
-margin-left: 450px;
+
 }
 .nganHang p span{
     font-weight: bolder;
     font-size: 20px;
 }
 .qr{
-    text-align: left;
+    text-align: center;
 }
 .qr p span{
     color: red;
@@ -26,9 +26,7 @@ margin-left: 450px;
     font-size: 30px;
     font-style: italic;
 }
-.ndQR{
-   margin-left: 450px;
-}
+
 .qr>.ndQR > span{
     color: black;
 }
