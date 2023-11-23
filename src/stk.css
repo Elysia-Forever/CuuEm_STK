@@ -10,7 +10,7 @@ h1{
 .nganHang{
 text-align: left;
 margin-top: 40px;
-padding-left: 450px;
+margin-left: 450px;
 }
 .nganHang p span{
     font-weight: bolder;
@@ -27,7 +27,7 @@ padding-left: 450px;
     font-style: italic;
 }
 .ndQR{
-    padding-left: 450px;
+   margin-left: 450px;
 }
 .qr>.ndQR > span{
     color: black;

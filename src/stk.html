@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stk.css" type="text/css">
+    <link rel="stylesheet" href="stk.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Ăn xin ONLINE</title>
 </head>
 <body>
@@ -20,7 +21,8 @@
         <span>Ngân hàng : MB BANK</span>
     </p>
     <p>
-        <span>STK : </span><span>0396485828</span>
+        <span>STK : </span><span id="soTK">0396485828 </span>
+        <a href="#" onclick="copySTK()"><i class="fa-solid fa-copy" style="color: #11ee87;"></i></a>
     </p>
     </div>
 
@@ -39,4 +41,6 @@
   </div>    
 </div>
 </body>
+
+<script type="text/javascript" src="stk.js"></script>
 </html>
